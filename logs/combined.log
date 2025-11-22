@@ -1,0 +1,388 @@
+{"env":"development","level":"info","message":"Starting server...","timestamp":"2025-10-17T23:52:46.599Z"}
+{"appName":"findmyroom","dbConfigured":"Yes","level":"debug","message":"Configuration loaded","port":3000,"timestamp":"2025-10-17T23:52:46.603Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-10-17T23:52:46.605Z"}
+{"level":"info","message":"MongoDB Connected successfully....","timestamp":"2025-10-17T23:52:47.275Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-10-17T23:52:47.276Z"}
+{"env":"development","level":"info","localUrl":"http://localhost:3000","message":"Server is running on port 3000","port":3000,"timestamp":"2025-10-17T23:52:47.282Z"}
+{"level":"info","message":"Local: http://localhost:3000","timestamp":"2025-10-17T23:52:47.283Z"}
+{"level":"info","message":"Email transporter is ready to send emails","timestamp":"2025-10-17T23:52:48.337Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/","timestamp":"2025-10-17T23:52:51.603Z"}
+{"env":"development","level":"info","message":"Starting server...","timestamp":"2025-10-17T23:56:40.921Z"}
+{"appName":"findmyroom","dbConfigured":"Yes","level":"debug","message":"Configuration loaded","port":3000,"timestamp":"2025-10-17T23:56:40.926Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-10-17T23:56:40.927Z"}
+{"level":"info","message":"MongoDB Connected successfully....","timestamp":"2025-10-17T23:56:41.646Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-10-17T23:56:41.649Z"}
+{"env":"development","level":"info","localUrl":"http://localhost:3000","message":"Server is running on port 3000","port":3000,"timestamp":"2025-10-17T23:56:41.660Z"}
+{"level":"info","message":"Local: http://localhost:3000","timestamp":"2025-10-17T23:56:41.661Z"}
+{"level":"info","message":"Email transporter is ready to send emails","timestamp":"2025-10-17T23:56:42.692Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/","timestamp":"2025-10-17T23:56:45.729Z"}
+{"env":"development","level":"info","message":"Starting server...","timestamp":"2025-10-17T23:58:09.686Z"}
+{"appName":"findmyroom","dbConfigured":"Yes","level":"debug","message":"Configuration loaded","port":3000,"timestamp":"2025-10-17T23:58:09.700Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-10-17T23:58:09.734Z"}
+{"level":"info","message":"MongoDB Connected successfully....","timestamp":"2025-10-17T23:58:10.834Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-10-17T23:58:10.835Z"}
+{"env":"development","level":"info","localUrl":"http://localhost:3000","message":"Server is running on port 3000","port":3000,"timestamp":"2025-10-17T23:58:10.844Z"}
+{"level":"info","message":"Local: http://localhost:3000","timestamp":"2025-10-17T23:58:10.870Z"}
+{"env":"development","level":"info","message":"Starting server...","timestamp":"2025-11-06T12:17:41.473Z"}
+{"appName":"findmyroom","dbConfigured":"Yes","level":"debug","message":"Configuration loaded","port":3000,"timestamp":"2025-11-06T12:17:41.478Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-11-06T12:17:41.479Z"}
+{"level":"info","message":"Email transporter is ready to send emails","timestamp":"2025-11-06T12:17:43.857Z"}
+{"error":"Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/","level":"error","message":"MongoDB connection failed","stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (C:\\Users\\HP\\Downloads\\rosca-be\\node_modules\\mongoose\\lib\\connection.js:816:11)\n    at NativeConnection.openUri (C:\\Users\\HP\\Downloads\\rosca-be\\node_modules\\mongoose\\lib\\connection.js:791:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async connectDB (file:///C:/Users/HP/Downloads/rosca-be/dist/src/utils/db.js:5:9)\n    at async startServer (file:///C:/Users/HP/Downloads/rosca-be/dist/server.js:15:9)","timestamp":"2025-11-06T12:18:11.721Z"}
+{"env":"development","level":"info","message":"Starting server...","timestamp":"2025-11-06T12:22:38.937Z"}
+{"appName":"findmyroom","dbConfigured":"Yes","level":"debug","message":"Configuration loaded","port":3000,"timestamp":"2025-11-06T12:22:38.947Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-11-06T12:22:38.952Z"}
+{"level":"info","message":"MongoDB Connected successfully....","timestamp":"2025-11-06T12:22:39.731Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-11-06T12:22:39.736Z"}
+{"env":"development","level":"info","localUrl":"http://localhost:3000","message":"Server is running on port 3000","port":3000,"timestamp":"2025-11-06T12:22:39.762Z"}
+{"level":"info","message":"Local: http://localhost:3000","timestamp":"2025-11-06T12:22:39.764Z"}
+{"level":"info","message":"Email transporter is ready to send emails","timestamp":"2025-11-06T12:22:40.813Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/","timestamp":"2025-11-06T12:23:02.024Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/favicon.ico","timestamp":"2025-11-06T12:23:02.152Z"}
+{"ip":"::1","level":"warn","message":"Route not found","method":"GET","path":"/favicon.ico","timestamp":"2025-11-06T12:23:02.154Z"}
+{"env":"development","level":"info","message":"Starting server...","timestamp":"2025-11-16T16:28:44.629Z"}
+{"appName":"findmyroom","dbConfigured":"Yes","level":"debug","message":"Configuration loaded","port":3000,"timestamp":"2025-11-16T16:28:44.637Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-11-16T16:28:44.639Z"}
+{"level":"info","message":"Email transporter is ready to send emails","timestamp":"2025-11-16T16:28:46.609Z"}
+{"error":"Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/","level":"error","message":"MongoDB connection failed","stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (C:\\Users\\HP\\Downloads\\rosca-be\\node_modules\\mongoose\\lib\\connection.js:816:11)\n    at NativeConnection.openUri (C:\\Users\\HP\\Downloads\\rosca-be\\node_modules\\mongoose\\lib\\connection.js:791:11)\n    at async connectDB (file:///C:/Users/HP/Downloads/rosca-be/dist/src/utils/db.js:5:9)\n    at async startServer (file:///C:/Users/HP/Downloads/rosca-be/dist/server.js:15:9)","timestamp":"2025-11-16T16:29:15.050Z"}
+{"env":"development","level":"info","message":"Starting server...","timestamp":"2025-11-16T16:36:21.433Z"}
+{"appName":"findmyroom","dbConfigured":"Yes","level":"debug","message":"Configuration loaded","port":3000,"timestamp":"2025-11-16T16:36:21.438Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-11-16T16:36:21.439Z"}
+{"level":"info","message":"MongoDB Connected successfully....","timestamp":"2025-11-16T16:36:22.394Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-11-16T16:36:22.396Z"}
+{"env":"development","level":"info","localUrl":"http://localhost:3000","message":"Server is running on port 3000","port":3000,"timestamp":"2025-11-16T16:36:22.403Z"}
+{"level":"info","message":"Local: http://localhost:3000","timestamp":"2025-11-16T16:36:22.404Z"}
+{"level":"info","message":"Email transporter is ready to send emails","timestamp":"2025-11-16T16:36:23.421Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/","timestamp":"2025-11-16T16:36:49.565Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/","timestamp":"2025-11-16T16:36:49.704Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/favicon.ico","timestamp":"2025-11-16T16:36:49.822Z"}
+{"ip":"::1","level":"warn","message":"Route not found","method":"GET","path":"/favicon.ico","timestamp":"2025-11-16T16:36:49.839Z"}
+{"env":"development","level":"info","message":"Starting server...","timestamp":"2025-11-19T19:32:01.746Z"}
+{"appName":"findmyroom","dbConfigured":"Yes","level":"debug","message":"Configuration loaded","port":3000,"timestamp":"2025-11-19T19:32:01.750Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-11-19T19:32:01.752Z"}
+{"level":"info","message":"MongoDB Connected successfully....","timestamp":"2025-11-19T19:32:02.976Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-11-19T19:32:02.977Z"}
+{"env":"development","level":"info","localUrl":"http://localhost:3000","message":"Server is running on port 3000","port":3000,"timestamp":"2025-11-19T19:32:02.996Z"}
+{"level":"info","message":"Local: http://localhost:3000","timestamp":"2025-11-19T19:32:02.997Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/login","timestamp":"2025-11-19T19:33:34.988Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/signup","timestamp":"2025-11-19T19:35:13.727Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/signup","timestamp":"2025-11-19T19:35:49.014Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/signup","timestamp":"2025-11-19T19:36:20.588Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/signup","timestamp":"2025-11-19T19:45:13.870Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/login","timestamp":"2025-11-19T19:45:34.514Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/api/rooms","timestamp":"2025-11-19T19:45:40.279Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/login","timestamp":"2025-11-19T19:47:27.295Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/api/rooms","timestamp":"2025-11-19T19:47:29.684Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/rooms","timestamp":"2025-11-19T19:48:53.945Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/api/rooms","timestamp":"2025-11-19T19:49:03.761Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/forgot-password","timestamp":"2025-11-19T19:49:27.584Z"}
+{"details":{"errors":[{"field":null,"help":null,"message":"The provided authorization grant is invalid, expired, or revoked"}]},"error":"Request failed with status code 401","level":"error","message":"Failed to send OTP email","timestamp":"2025-11-19T19:49:28.779Z","to":"sumitrauthan413@gmail.com"}
+{"env":"development","level":"info","message":"Starting server...","timestamp":"2025-11-19T20:23:54.121Z"}
+{"appName":"findmyroom","dbConfigured":"Yes","level":"debug","message":"Configuration loaded","port":3000,"timestamp":"2025-11-19T20:23:54.128Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-11-19T20:23:54.130Z"}
+{"level":"info","message":"MongoDB Connected successfully....","timestamp":"2025-11-19T20:23:55.491Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-11-19T20:23:55.492Z"}
+{"env":"development","level":"info","localUrl":"http://localhost:3000","message":"Server is running on port 3000","port":3000,"timestamp":"2025-11-19T20:23:55.513Z"}
+{"level":"info","message":"Local: http://localhost:3000","timestamp":"2025-11-19T20:23:55.515Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/forgot-password","timestamp":"2025-11-19T20:25:50.480Z"}
+{"level":"info","message":"OTP email sent successfully","messageId":"<c30baa37-520c-58bb-553c-fa7fc0bf4e8d@gmail.com>","timestamp":"2025-11-19T20:25:54.037Z","to":"sumitrauthan413@gmail.com"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/verify-otp","timestamp":"2025-11-19T20:26:22.703Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/reset-password","timestamp":"2025-11-19T20:26:52.747Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/login","timestamp":"2025-11-19T20:27:09.335Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/api/rooms","timestamp":"2025-11-19T20:27:25.482Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/rooms","timestamp":"2025-11-19T20:30:21.949Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"ValidationError: Room validation failed: contactNumber: Path `contactNumber` is required., type: Path `type` is required., bathrooms: Path `bathrooms` is required., beds: Path `beds` is required., price: Path `price` is required., location: Path `location` is required., roomTitle: Path `roomTitle` is required., ownerName: Path `ownerName` is required.\n    at Document.invalidate (C:\\Users\\sumit\\OneDrive\\Desktop\\rosca\\rosca-be\\node_modules\\mongoose\\lib\\document.js:3219:32)\n    at C:\\Users\\sumit\\OneDrive\\Desktop\\rosca\\rosca-be\\node_modules\\mongoose\\lib\\document.js:3012:17\n    at C:\\Users\\sumit\\OneDrive\\Desktop\\rosca\\rosca-be\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","status":500,"timestamp":"2025-11-19T20:30:22.036Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/rooms","timestamp":"2025-11-19T20:30:55.407Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"ValidationError: Room validation failed: contactNumber: Path `contactNumber` is required., type: Path `type` is required., bathrooms: Path `bathrooms` is required., beds: Path `beds` is required., price: Path `price` is required., location: Path `location` is required., roomTitle: Path `roomTitle` is required., ownerName: Path `ownerName` is required.\n    at Document.invalidate (C:\\Users\\sumit\\OneDrive\\Desktop\\rosca\\rosca-be\\node_modules\\mongoose\\lib\\document.js:3219:32)\n    at C:\\Users\\sumit\\OneDrive\\Desktop\\rosca\\rosca-be\\node_modules\\mongoose\\lib\\document.js:3012:17\n    at C:\\Users\\sumit\\OneDrive\\Desktop\\rosca\\rosca-be\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","status":500,"timestamp":"2025-11-19T20:30:55.416Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/rooms","timestamp":"2025-11-19T20:31:02.673Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"ValidationError: Room validation failed: contactNumber: Path `contactNumber` is required., type: Path `type` is required., bathrooms: Path `bathrooms` is required., beds: Path `beds` is required., price: Path `price` is required., location: Path `location` is required., roomTitle: Path `roomTitle` is required., ownerName: Path `ownerName` is required.\n    at Document.invalidate (C:\\Users\\sumit\\OneDrive\\Desktop\\rosca\\rosca-be\\node_modules\\mongoose\\lib\\document.js:3219:32)\n    at C:\\Users\\sumit\\OneDrive\\Desktop\\rosca\\rosca-be\\node_modules\\mongoose\\lib\\document.js:3012:17\n    at C:\\Users\\sumit\\OneDrive\\Desktop\\rosca\\rosca-be\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","status":500,"timestamp":"2025-11-19T20:31:02.680Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/rooms","timestamp":"2025-11-19T20:31:52.085Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"ValidationError: Room validation failed: contactNumber: Path `contactNumber` is required., type: Path `type` is required., bathrooms: Path `bathrooms` is required., beds: Path `beds` is required., price: Path `price` is required., location: Path `location` is required., roomTitle: Path `roomTitle` is required., ownerName: Path `ownerName` is required.\n    at Document.invalidate (C:\\Users\\sumit\\OneDrive\\Desktop\\rosca\\rosca-be\\node_modules\\mongoose\\lib\\document.js:3219:32)\n    at C:\\Users\\sumit\\OneDrive\\Desktop\\rosca\\rosca-be\\node_modules\\mongoose\\lib\\document.js:3012:17\n    at C:\\Users\\sumit\\OneDrive\\Desktop\\rosca\\rosca-be\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","status":500,"timestamp":"2025-11-19T20:31:52.111Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/rooms","timestamp":"2025-11-19T20:45:28.122Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"ValidationError: Room validation failed: contactNumber: Path `contactNumber` is required., type: Path `type` is required., bathrooms: Path `bathrooms` is required., beds: Path `beds` is required., price: Path `price` is required., location: Path `location` is required., roomTitle: Path `roomTitle` is required., ownerName: Path `ownerName` is required.\n    at Document.invalidate (C:\\Users\\sumit\\OneDrive\\Desktop\\rosca\\rosca-be\\node_modules\\mongoose\\lib\\document.js:3219:32)\n    at C:\\Users\\sumit\\OneDrive\\Desktop\\rosca\\rosca-be\\node_modules\\mongoose\\lib\\document.js:3012:17\n    at C:\\Users\\sumit\\OneDrive\\Desktop\\rosca\\rosca-be\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","status":500,"timestamp":"2025-11-19T20:45:28.249Z"}
+{"env":"development","level":"info","message":"Starting server...","timestamp":"2025-11-19T20:46:24.221Z"}
+{"appName":"findmyroom","dbConfigured":"Yes","level":"debug","message":"Configuration loaded","port":3000,"timestamp":"2025-11-19T20:46:24.230Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-11-19T20:46:24.233Z"}
+{"level":"info","message":"MongoDB Connected successfully....","timestamp":"2025-11-19T20:46:25.576Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-11-19T20:46:25.579Z"}
+{"env":"development","level":"info","localUrl":"http://localhost:3000","message":"Server is running on port 3000","port":3000,"timestamp":"2025-11-19T20:46:25.612Z"}
+{"level":"info","message":"Local: http://localhost:3000","timestamp":"2025-11-19T20:46:25.614Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/rooms","timestamp":"2025-11-19T20:48:51.902Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"ValidationError: Room validation failed: contactNumber: Path `contactNumber` is required., type: Path `type` is required., bathrooms: Path `bathrooms` is required., beds: Path `beds` is required., price: Path `price` is required., location: Path `location` is required., roomTitle: Path `roomTitle` is required., ownerName: Path `ownerName` is required.\n    at Document.invalidate (C:\\Users\\sumit\\OneDrive\\Desktop\\rosca\\rosca-be\\node_modules\\mongoose\\lib\\document.js:3219:32)\n    at C:\\Users\\sumit\\OneDrive\\Desktop\\rosca\\rosca-be\\node_modules\\mongoose\\lib\\document.js:3012:17\n    at C:\\Users\\sumit\\OneDrive\\Desktop\\rosca\\rosca-be\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","status":500,"timestamp":"2025-11-19T20:48:52.011Z"}
+{"env":"development","level":"info","message":"Starting server...","timestamp":"2025-11-19T20:51:27.354Z"}
+{"appName":"findmyroom","dbConfigured":"Yes","level":"debug","message":"Configuration loaded","port":3000,"timestamp":"2025-11-19T20:51:27.360Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-11-19T20:51:27.362Z"}
+{"level":"info","message":"MongoDB Connected successfully....","timestamp":"2025-11-19T20:51:28.878Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-11-19T20:51:28.879Z"}
+{"env":"development","level":"info","localUrl":"http://localhost:3000","message":"Server is running on port 3000","port":3000,"timestamp":"2025-11-19T20:51:28.893Z"}
+{"level":"info","message":"Local: http://localhost:3000","timestamp":"2025-11-19T20:51:28.897Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/login","timestamp":"2025-11-19T20:53:20.238Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/api/rooms","timestamp":"2025-11-19T20:53:31.933Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/rooms","timestamp":"2025-11-19T20:54:11.385Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"ValidationError: Room validation failed: contactNumber: Path `contactNumber` is required., type: Path `type` is required., bathrooms: Path `bathrooms` is required., beds: Path `beds` is required., price: Path `price` is required., location: Path `location` is required., roomTitle: Path `roomTitle` is required., ownerName: Path `ownerName` is required.\n    at Document.invalidate (C:\\Users\\sumit\\OneDrive\\Desktop\\rosca\\rosca-be\\node_modules\\mongoose\\lib\\document.js:3219:32)\n    at C:\\Users\\sumit\\OneDrive\\Desktop\\rosca\\rosca-be\\node_modules\\mongoose\\lib\\document.js:3012:17\n    at C:\\Users\\sumit\\OneDrive\\Desktop\\rosca\\rosca-be\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","status":500,"timestamp":"2025-11-19T20:54:11.480Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/rooms","timestamp":"2025-11-19T20:57:46.185Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"ValidationError: Room validation failed: contactNumber: Path `contactNumber` is required., type: Path `type` is required., bathrooms: Path `bathrooms` is required., beds: Path `beds` is required., price: Path `price` is required., location: Path `location` is required., roomTitle: Path `roomTitle` is required., ownerName: Path `ownerName` is required.\n    at Document.invalidate (C:\\Users\\sumit\\OneDrive\\Desktop\\rosca\\rosca-be\\node_modules\\mongoose\\lib\\document.js:3219:32)\n    at C:\\Users\\sumit\\OneDrive\\Desktop\\rosca\\rosca-be\\node_modules\\mongoose\\lib\\document.js:3012:17\n    at C:\\Users\\sumit\\OneDrive\\Desktop\\rosca\\rosca-be\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","status":500,"timestamp":"2025-11-19T20:57:46.241Z"}
+{"env":"development","level":"info","message":"Starting server...","timestamp":"2025-11-19T21:02:35.260Z"}
+{"appName":"findmyroom","dbConfigured":"Yes","level":"debug","message":"Configuration loaded","port":3000,"timestamp":"2025-11-19T21:02:35.276Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-11-19T21:02:35.279Z"}
+{"level":"info","message":"MongoDB Connected successfully....","timestamp":"2025-11-19T21:02:36.946Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-11-19T21:02:36.948Z"}
+{"env":"development","level":"info","localUrl":"http://localhost:3000","message":"Server is running on port 3000","port":3000,"timestamp":"2025-11-19T21:02:36.989Z"}
+{"level":"info","message":"Local: http://localhost:3000","timestamp":"2025-11-19T21:02:36.996Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/rooms","timestamp":"2025-11-19T21:08:25.988Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/api/rooms","timestamp":"2025-11-19T21:08:42.226Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/api/rooms/691e31cafc802d4eb72ff5c4","timestamp":"2025-11-19T21:09:00.348Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/api/rooms/691e31cafc802d4eb72ff5c4","timestamp":"2025-11-19T21:09:00.461Z"}
+{"env":"development","level":"info","message":"Starting server...","timestamp":"2025-11-20T11:55:02.218Z"}
+{"appName":"RoscA Backend","dbConfigured":"Yes","level":"debug","message":"Configuration loaded","port":3000,"timestamp":"2025-11-20T11:55:02.222Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-11-20T11:55:02.223Z"}
+{"level":"info","message":"MongoDB Connected successfully....","timestamp":"2025-11-20T11:55:02.955Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-11-20T11:55:02.957Z"}
+{"env":"development","level":"info","localUrl":"http://localhost:3000","message":"Server is running on port 3000","port":3000,"timestamp":"2025-11-20T11:55:02.973Z"}
+{"level":"info","message":"Local: http://localhost:3000","timestamp":"2025-11-20T11:55:02.974Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/login","timestamp":"2025-11-20T11:58:27.840Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/api/rooms","timestamp":"2025-11-20T11:58:31.715Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/forgot-password","timestamp":"2025-11-20T11:58:58.890Z"}
+{"environment":"development","level":"error","message":"Error: User not found","stack":"Error: User not found\n    at forgotPasswordLogic (file:///C:/Users/HP/Downloads/rosca-be-new/dist/src/controllers/userController.js:68:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","status":404,"timestamp":"2025-11-20T11:58:58.945Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/forgot-password","timestamp":"2025-11-20T11:59:10.823Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"Error: Email service not configured. Please contact administrator.\n    at sendOtpEmail (file:///C:/Users/HP/Downloads/rosca-be-new/dist/src/services/emailService.js:32:15)\n    at forgotPasswordLogic (file:///C:/Users/HP/Downloads/rosca-be-new/dist/src/controllers/userController.js:72:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","status":500,"timestamp":"2025-11-20T11:59:10.957Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/forgot-password","timestamp":"2025-11-20T11:59:13.285Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"Error: Email service not configured. Please contact administrator.\n    at sendOtpEmail (file:///C:/Users/HP/Downloads/rosca-be-new/dist/src/services/emailService.js:32:15)\n    at forgotPasswordLogic (file:///C:/Users/HP/Downloads/rosca-be-new/dist/src/controllers/userController.js:72:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","status":500,"timestamp":"2025-11-20T11:59:13.388Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/forgot-password","timestamp":"2025-11-20T11:59:14.126Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"Error: Email service not configured. Please contact administrator.\n    at sendOtpEmail (file:///C:/Users/HP/Downloads/rosca-be-new/dist/src/services/emailService.js:32:15)\n    at forgotPasswordLogic (file:///C:/Users/HP/Downloads/rosca-be-new/dist/src/controllers/userController.js:72:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","status":500,"timestamp":"2025-11-20T11:59:14.236Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/forgot-password","timestamp":"2025-11-20T11:59:14.521Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"Error: Email service not configured. Please contact administrator.\n    at sendOtpEmail (file:///C:/Users/HP/Downloads/rosca-be-new/dist/src/services/emailService.js:32:15)\n    at forgotPasswordLogic (file:///C:/Users/HP/Downloads/rosca-be-new/dist/src/controllers/userController.js:72:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","status":500,"timestamp":"2025-11-20T11:59:14.623Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/forgot-password","timestamp":"2025-11-20T11:59:14.891Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"Error: Email service not configured. Please contact administrator.\n    at sendOtpEmail (file:///C:/Users/HP/Downloads/rosca-be-new/dist/src/services/emailService.js:32:15)\n    at forgotPasswordLogic (file:///C:/Users/HP/Downloads/rosca-be-new/dist/src/controllers/userController.js:72:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","status":500,"timestamp":"2025-11-20T11:59:14.997Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/forgot-password","timestamp":"2025-11-20T11:59:15.260Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"Error: Email service not configured. Please contact administrator.\n    at sendOtpEmail (file:///C:/Users/HP/Downloads/rosca-be-new/dist/src/services/emailService.js:32:15)\n    at forgotPasswordLogic (file:///C:/Users/HP/Downloads/rosca-be-new/dist/src/controllers/userController.js:72:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","status":500,"timestamp":"2025-11-20T11:59:15.366Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/forgot-password","timestamp":"2025-11-20T11:59:15.616Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"Error: Email service not configured. Please contact administrator.\n    at sendOtpEmail (file:///C:/Users/HP/Downloads/rosca-be-new/dist/src/services/emailService.js:32:15)\n    at forgotPasswordLogic (file:///C:/Users/HP/Downloads/rosca-be-new/dist/src/controllers/userController.js:72:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","status":500,"timestamp":"2025-11-20T11:59:15.731Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/forgot-password","timestamp":"2025-11-20T11:59:16.010Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"Error: Email service not configured. Please contact administrator.\n    at sendOtpEmail (file:///C:/Users/HP/Downloads/rosca-be-new/dist/src/services/emailService.js:32:15)\n    at forgotPasswordLogic (file:///C:/Users/HP/Downloads/rosca-be-new/dist/src/controllers/userController.js:72:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","status":500,"timestamp":"2025-11-20T11:59:16.114Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/forgot-password","timestamp":"2025-11-20T11:59:16.379Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"Error: Email service not configured. Please contact administrator.\n    at sendOtpEmail (file:///C:/Users/HP/Downloads/rosca-be-new/dist/src/services/emailService.js:32:15)\n    at forgotPasswordLogic (file:///C:/Users/HP/Downloads/rosca-be-new/dist/src/controllers/userController.js:72:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","status":500,"timestamp":"2025-11-20T11:59:16.482Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/forgot-password","timestamp":"2025-11-20T11:59:21.665Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"Error: Email service not configured. Please contact administrator.\n    at sendOtpEmail (file:///C:/Users/HP/Downloads/rosca-be-new/dist/src/services/emailService.js:32:15)\n    at forgotPasswordLogic (file:///C:/Users/HP/Downloads/rosca-be-new/dist/src/controllers/userController.js:72:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","status":500,"timestamp":"2025-11-20T11:59:21.806Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/forgot-password","timestamp":"2025-11-20T11:59:24.243Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"Error: Email service not configured. Please contact administrator.\n    at sendOtpEmail (file:///C:/Users/HP/Downloads/rosca-be-new/dist/src/services/emailService.js:32:15)\n    at forgotPasswordLogic (file:///C:/Users/HP/Downloads/rosca-be-new/dist/src/controllers/userController.js:72:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","status":500,"timestamp":"2025-11-20T11:59:24.353Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/forgot-password","timestamp":"2025-11-20T11:59:26.374Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"Error: Email service not configured. Please contact administrator.\n    at sendOtpEmail (file:///C:/Users/HP/Downloads/rosca-be-new/dist/src/services/emailService.js:32:15)\n    at forgotPasswordLogic (file:///C:/Users/HP/Downloads/rosca-be-new/dist/src/controllers/userController.js:72:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","status":500,"timestamp":"2025-11-20T11:59:26.480Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/signup","timestamp":"2025-11-20T12:00:01.638Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/forgot-password","timestamp":"2025-11-20T12:00:09.575Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"Error: Email service not configured. Please contact administrator.\n    at sendOtpEmail (file:///C:/Users/HP/Downloads/rosca-be-new/dist/src/services/emailService.js:32:15)\n    at forgotPasswordLogic (file:///C:/Users/HP/Downloads/rosca-be-new/dist/src/controllers/userController.js:72:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","status":500,"timestamp":"2025-11-20T12:00:09.690Z"}
+{"env":"development","level":"info","message":"Starting server...","timestamp":"2025-11-20T12:09:10.659Z"}
+{"appName":"findmyroom","dbConfigured":"Yes","level":"debug","message":"Configuration loaded","port":3000,"timestamp":"2025-11-20T12:09:10.665Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-11-20T12:09:10.667Z"}
+{"level":"info","message":"MongoDB Connected successfully....","timestamp":"2025-11-20T12:09:11.347Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-11-20T12:09:11.349Z"}
+{"env":"development","level":"info","localUrl":"http://localhost:3000","message":"Server is running on port 3000","port":3000,"timestamp":"2025-11-20T12:09:11.366Z"}
+{"level":"info","message":"Local: http://localhost:3000","timestamp":"2025-11-20T12:09:11.368Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/forgot-password","timestamp":"2025-11-20T12:09:54.477Z"}
+{"level":"info","message":"OTP email sent successfully","messageId":"<ac366b52-1a17-fe6f-11cc-bc2320e3ea37@gmail.com>","timestamp":"2025-11-20T12:09:58.349Z","to":"agarwalnimish428@gmail.com"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/login","timestamp":"2025-11-20T12:11:12.861Z"}
+{"environment":"development","level":"error","message":"Error: Invalid email or password","stack":"Error: Invalid email or password\n    at loginUserLogic (file:///C:/Users/HP/Downloads/rosca-be-new/dist/src/controllers/userController.js:49:15)","status":401,"timestamp":"2025-11-20T12:11:13.027Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/login","timestamp":"2025-11-20T12:11:25.461Z"}
+{"environment":"development","level":"error","message":"Error: Invalid email or password","stack":"Error: Invalid email or password\n    at loginUserLogic (file:///C:/Users/HP/Downloads/rosca-be-new/dist/src/controllers/userController.js:49:15)","status":401,"timestamp":"2025-11-20T12:11:25.631Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/login","timestamp":"2025-11-20T12:12:08.550Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/api/rooms","timestamp":"2025-11-20T12:12:11.138Z"}
+{"env":"development","level":"info","message":"Starting server...","timestamp":"2025-11-20T15:52:56.041Z"}
+{"appName":"findmyroom","dbConfigured":"Yes","level":"debug","message":"Configuration loaded","port":3000,"timestamp":"2025-11-20T15:52:56.045Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-11-20T15:52:56.046Z"}
+{"level":"info","message":"MongoDB Connected successfully....","timestamp":"2025-11-20T15:52:56.970Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-11-20T15:52:56.971Z"}
+{"env":"development","level":"info","localUrl":"http://localhost:3000","message":"Server is running on port 3000","port":3000,"timestamp":"2025-11-20T15:52:56.987Z"}
+{"level":"info","message":"Local: http://localhost:3000","timestamp":"2025-11-20T15:52:56.988Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/login","timestamp":"2025-11-20T15:54:01.286Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/api/rooms","timestamp":"2025-11-20T15:54:05.356Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/rooms","timestamp":"2025-11-20T15:55:14.303Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"ValidationError: Room validation failed: contactNumber: Path `contactNumber` is required., type: Path `type` is required., bathrooms: Path `bathrooms` is required., beds: Path `beds` is required., price: Path `price` is required., location: Path `location` is required., roomTitle: Path `roomTitle` is required., ownerName: Path `ownerName` is required.\n    at Document.invalidate (C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\document.js:3219:32)\n    at C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\document.js:3012:17\n    at C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","status":500,"timestamp":"2025-11-20T15:55:14.327Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/rooms","timestamp":"2025-11-20T15:55:16.127Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"ValidationError: Room validation failed: contactNumber: Path `contactNumber` is required., type: Path `type` is required., bathrooms: Path `bathrooms` is required., beds: Path `beds` is required., price: Path `price` is required., location: Path `location` is required., roomTitle: Path `roomTitle` is required., ownerName: Path `ownerName` is required.\n    at Document.invalidate (C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\document.js:3219:32)\n    at C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\document.js:3012:17\n    at C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","status":500,"timestamp":"2025-11-20T15:55:16.131Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/rooms","timestamp":"2025-11-20T15:55:16.898Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"ValidationError: Room validation failed: contactNumber: Path `contactNumber` is required., type: Path `type` is required., bathrooms: Path `bathrooms` is required., beds: Path `beds` is required., price: Path `price` is required., location: Path `location` is required., roomTitle: Path `roomTitle` is required., ownerName: Path `ownerName` is required.\n    at Document.invalidate (C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\document.js:3219:32)\n    at C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\document.js:3012:17\n    at C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","status":500,"timestamp":"2025-11-20T15:55:16.903Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/rooms","timestamp":"2025-11-20T15:55:17.175Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"ValidationError: Room validation failed: contactNumber: Path `contactNumber` is required., type: Path `type` is required., bathrooms: Path `bathrooms` is required., beds: Path `beds` is required., price: Path `price` is required., location: Path `location` is required., roomTitle: Path `roomTitle` is required., ownerName: Path `ownerName` is required.\n    at Document.invalidate (C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\document.js:3219:32)\n    at C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\document.js:3012:17\n    at C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","status":500,"timestamp":"2025-11-20T15:55:17.178Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/rooms","timestamp":"2025-11-20T15:55:17.399Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"ValidationError: Room validation failed: contactNumber: Path `contactNumber` is required., type: Path `type` is required., bathrooms: Path `bathrooms` is required., beds: Path `beds` is required., price: Path `price` is required., location: Path `location` is required., roomTitle: Path `roomTitle` is required., ownerName: Path `ownerName` is required.\n    at Document.invalidate (C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\document.js:3219:32)\n    at C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\document.js:3012:17\n    at C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","status":500,"timestamp":"2025-11-20T15:55:17.407Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/rooms","timestamp":"2025-11-20T15:55:17.772Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"ValidationError: Room validation failed: contactNumber: Path `contactNumber` is required., type: Path `type` is required., bathrooms: Path `bathrooms` is required., beds: Path `beds` is required., price: Path `price` is required., location: Path `location` is required., roomTitle: Path `roomTitle` is required., ownerName: Path `ownerName` is required.\n    at Document.invalidate (C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\document.js:3219:32)\n    at C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\document.js:3012:17\n    at C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","status":500,"timestamp":"2025-11-20T15:55:17.777Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/rooms","timestamp":"2025-11-20T15:55:18.128Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"ValidationError: Room validation failed: contactNumber: Path `contactNumber` is required., type: Path `type` is required., bathrooms: Path `bathrooms` is required., beds: Path `beds` is required., price: Path `price` is required., location: Path `location` is required., roomTitle: Path `roomTitle` is required., ownerName: Path `ownerName` is required.\n    at Document.invalidate (C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\document.js:3219:32)\n    at C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\document.js:3012:17\n    at C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","status":500,"timestamp":"2025-11-20T15:55:18.135Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/rooms","timestamp":"2025-11-20T15:55:18.512Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"ValidationError: Room validation failed: contactNumber: Path `contactNumber` is required., type: Path `type` is required., bathrooms: Path `bathrooms` is required., beds: Path `beds` is required., price: Path `price` is required., location: Path `location` is required., roomTitle: Path `roomTitle` is required., ownerName: Path `ownerName` is required.\n    at Document.invalidate (C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\document.js:3219:32)\n    at C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\document.js:3012:17\n    at C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","status":500,"timestamp":"2025-11-20T15:55:18.516Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/rooms","timestamp":"2025-11-20T15:55:19.096Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"ValidationError: Room validation failed: contactNumber: Path `contactNumber` is required., type: Path `type` is required., bathrooms: Path `bathrooms` is required., beds: Path `beds` is required., price: Path `price` is required., location: Path `location` is required., roomTitle: Path `roomTitle` is required., ownerName: Path `ownerName` is required.\n    at Document.invalidate (C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\document.js:3219:32)\n    at C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\document.js:3012:17\n    at C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","status":500,"timestamp":"2025-11-20T15:55:19.101Z"}
+{"env":"development","level":"info","message":"Starting server...","timestamp":"2025-11-20T16:05:24.821Z"}
+{"appName":"findmyroom","dbConfigured":"Yes","level":"debug","message":"Configuration loaded","port":3000,"timestamp":"2025-11-20T16:05:24.828Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-11-20T16:05:24.830Z"}
+{"level":"info","message":"MongoDB Connected successfully....","timestamp":"2025-11-20T16:05:25.636Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-11-20T16:05:25.637Z"}
+{"env":"development","level":"info","localUrl":"http://localhost:3000","message":"Server is running on port 3000","port":3000,"timestamp":"2025-11-20T16:05:25.647Z"}
+{"level":"info","message":"Local: http://localhost:3000","timestamp":"2025-11-20T16:05:25.648Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/login","timestamp":"2025-11-20T16:06:29.008Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/api/rooms","timestamp":"2025-11-20T16:06:33.030Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/rooms","timestamp":"2025-11-20T16:07:14.273Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"ValidationError: Room validation failed: ownerName: Path `ownerName` is required., roomTitle: Path `roomTitle` is required., location: Path `location` is required., type: Path `type` is required., contactNumber: Path `contactNumber` is required.\n    at Document.invalidate (C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\document.js:3219:32)\n    at C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\document.js:3012:17\n    at C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","status":500,"timestamp":"2025-11-20T16:07:14.305Z"}
+{"env":"development","level":"info","message":"Starting server...","timestamp":"2025-11-20T16:09:59.705Z"}
+{"appName":"findmyroom","dbConfigured":"Yes","level":"debug","message":"Configuration loaded","port":3000,"timestamp":"2025-11-20T16:09:59.709Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-11-20T16:09:59.711Z"}
+{"level":"info","message":"MongoDB Connected successfully....","timestamp":"2025-11-20T16:10:00.479Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-11-20T16:10:00.480Z"}
+{"env":"development","level":"info","localUrl":"http://localhost:3000","message":"Server is running on port 3000","port":3000,"timestamp":"2025-11-20T16:10:00.488Z"}
+{"level":"info","message":"Local: http://localhost:3000","timestamp":"2025-11-20T16:10:00.488Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/login","timestamp":"2025-11-20T16:11:03.649Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/api/rooms","timestamp":"2025-11-20T16:11:07.729Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/rooms","timestamp":"2025-11-20T16:11:48.551Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"ValidationError: Room validation failed: ownerName: Path `ownerName` is required., roomTitle: Path `roomTitle` is required., location: Path `location` is required., price: Path `price` is required., beds: Path `beds` is required., bathrooms: Path `bathrooms` is required., type: Path `type` is required., contactNumber: Path `contactNumber` is required.\n    at Document.invalidate (C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\document.js:3219:32)\n    at C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\document.js:3012:17\n    at C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","status":500,"timestamp":"2025-11-20T16:11:48.578Z"}
+{"env":"development","level":"info","message":"Starting server...","timestamp":"2025-11-20T16:15:07.714Z"}
+{"appName":"findmyroom","dbConfigured":"Yes","level":"debug","message":"Configuration loaded","port":3000,"timestamp":"2025-11-20T16:15:07.720Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-11-20T16:15:07.721Z"}
+{"level":"info","message":"MongoDB Connected successfully....","timestamp":"2025-11-20T16:15:08.525Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-11-20T16:15:08.527Z"}
+{"env":"development","level":"info","localUrl":"http://localhost:3000","message":"Server is running on port 3000","port":3000,"timestamp":"2025-11-20T16:15:08.546Z"}
+{"level":"info","message":"Local: http://localhost:3000","timestamp":"2025-11-20T16:15:08.549Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/rooms","timestamp":"2025-11-20T16:15:26.613Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"ValidationError: Room validation failed: ownerName: Path `ownerName` is required., roomTitle: Path `roomTitle` is required., location: Path `location` is required., price: Path `price` is required., beds: Path `beds` is required., bathrooms: Path `bathrooms` is required., type: Path `type` is required., contactNumber: Path `contactNumber` is required.\n    at Document.invalidate (C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\document.js:3219:32)\n    at C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\document.js:3012:17\n    at C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","status":500,"timestamp":"2025-11-20T16:15:26.659Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/rooms","timestamp":"2025-11-20T16:15:27.645Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"ValidationError: Room validation failed: ownerName: Path `ownerName` is required., roomTitle: Path `roomTitle` is required., location: Path `location` is required., price: Path `price` is required., beds: Path `beds` is required., bathrooms: Path `bathrooms` is required., type: Path `type` is required., contactNumber: Path `contactNumber` is required.\n    at Document.invalidate (C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\document.js:3219:32)\n    at C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\document.js:3012:17\n    at C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","status":500,"timestamp":"2025-11-20T16:15:27.652Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/users/login","timestamp":"2025-11-20T16:15:59.008Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/api/rooms","timestamp":"2025-11-20T16:16:01.323Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"POST","path":"/api/rooms","timestamp":"2025-11-20T16:16:40.654Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"ValidationError: Room validation failed: ownerName: Path `ownerName` is required., roomTitle: Path `roomTitle` is required., location: Path `location` is required., price: Path `price` is required., beds: Path `beds` is required., bathrooms: Path `bathrooms` is required., type: Path `type` is required., contactNumber: Path `contactNumber` is required.\n    at Document.invalidate (C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\document.js:3219:32)\n    at C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\document.js:3012:17\n    at C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","status":500,"timestamp":"2025-11-20T16:16:40.659Z"}
+{"env":"development","level":"info","message":"Starting server...","timestamp":"2025-11-20T16:23:12.004Z"}
+{"appName":"findmyroom","dbConfigured":"Yes","level":"debug","message":"Configuration loaded","port":3000,"timestamp":"2025-11-20T16:23:12.009Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-11-20T16:23:12.010Z"}
+{"level":"info","message":"MongoDB Connected successfully....","timestamp":"2025-11-20T16:23:12.721Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-11-20T16:23:12.722Z"}
+{"env":"development","level":"info","localUrl":"http://localhost:3000","message":"Server is running on port 3000","port":3000,"timestamp":"2025-11-20T16:23:12.733Z"}
+{"level":"info","message":"Local: http://localhost:3000","timestamp":"2025-11-20T16:23:12.734Z"}
+{"environment":"development","level":"error","message":"Error: Server Error","stack":"ValidationError: Room validation failed: ownerName: Path `ownerName` is required., roomTitle: Path `roomTitle` is required., location: Path `location` is required., price: Path `price` is required., beds: Path `beds` is required., bathrooms: Path `bathrooms` is required., type: Path `type` is required., contactNumber: Path `contactNumber` is required.\n    at Document.invalidate (C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\document.js:3219:32)\n    at C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\document.js:3012:17\n    at C:\\Users\\HP\\Downloads\\rosca-be-new\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","status":500,"timestamp":"2025-11-20T16:23:25.558Z"}
+{"env":"development","level":"info","message":"Starting server...","timestamp":"2025-11-20T16:44:32.830Z"}
+{"appName":"findmyroom","dbConfigured":"Yes","level":"debug","message":"Configuration loaded","port":3000,"timestamp":"2025-11-20T16:44:32.834Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-11-20T16:44:32.835Z"}
+{"level":"info","message":"MongoDB Connected successfully....","timestamp":"2025-11-20T16:44:33.507Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-11-20T16:44:33.510Z"}
+{"env":"development","level":"info","localUrl":"http://localhost:3000","message":"Server is running on port 3000","port":3000,"timestamp":"2025-11-20T16:44:33.527Z"}
+{"level":"info","message":"Local: http://localhost:3000","timestamp":"2025-11-20T16:44:33.528Z"}
+{"env":"development","level":"info","message":"Starting server...","timestamp":"2025-11-20T17:15:16.247Z"}
+{"appName":"findmyroom","dbConfigured":"Yes","level":"debug","message":"Configuration loaded","port":3000,"timestamp":"2025-11-20T17:15:16.252Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-11-20T17:15:16.254Z"}
+{"level":"info","message":"MongoDB Connected successfully....","timestamp":"2025-11-20T17:15:16.937Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-11-20T17:15:16.940Z"}
+{"env":"development","level":"info","localUrl":"http://localhost:3000","message":"Server is running on port 3000","port":3000,"timestamp":"2025-11-20T17:15:16.955Z"}
+{"level":"info","message":"Local: http://localhost:3000","timestamp":"2025-11-20T17:15:16.956Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/","timestamp":"2025-11-20T17:15:19.970Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/favicon.ico","timestamp":"2025-11-20T17:15:20.082Z"}
+{"ip":"::1","level":"warn","message":"Route not found","method":"GET","path":"/favicon.ico","timestamp":"2025-11-20T17:15:20.083Z"}
+{"env":"development","level":"info","message":"Starting server...","timestamp":"2025-11-20T18:58:55.262Z"}
+{"appName":"findmyroom","dbConfigured":"Yes","level":"debug","message":"Configuration loaded","port":3000,"timestamp":"2025-11-20T18:58:55.271Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-11-20T18:58:55.273Z"}
+{"level":"info","message":"MongoDB Connected successfully....","timestamp":"2025-11-20T18:58:56.495Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-11-20T18:58:56.496Z"}
+{"env":"development","level":"info","localUrl":"http://localhost:3000","message":"Server is running on port 3000","port":3000,"timestamp":"2025-11-20T18:58:56.527Z"}
+{"level":"info","message":"Local: http://localhost:3000","timestamp":"2025-11-20T18:58:56.532Z"}
+{"environment":"development","level":"error","message":"Error: Invalid email or password","stack":"Error: Invalid email or password\n    at loginUserLogic (file:///C:/Users/sumit/OneDrive/Desktop/rosca/rosca-be/dist/src/controllers/userController.js:49:15)","status":401,"timestamp":"2025-11-20T19:00:25.086Z"}
+{"level":"info","message":"OTP email sent successfully","messageId":"<2a5aac65-0dcb-ddce-721e-ab70949f0537@gmail.com>","timestamp":"2025-11-20T19:07:50.429Z","to":"sumitrauthan413@gmail.com"}
+{"env":"development","level":"info","message":"Starting server...","timestamp":"2025-11-21T09:25:00.678Z"}
+{"appName":"findmyroom","dbConfigured":"Yes","level":"debug","message":"Configuration loaded","port":3000,"timestamp":"2025-11-21T09:25:00.720Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-11-21T09:25:00.724Z"}
+{"level":"info","message":"MongoDB Connected successfully....","timestamp":"2025-11-21T09:25:02.528Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-11-21T09:25:02.529Z"}
+{"env":"development","level":"info","localUrl":"http://localhost:3000","message":"Server is running on port 3000","port":3000,"timestamp":"2025-11-21T09:25:02.556Z"}
+{"level":"info","message":"Local: http://localhost:3000","timestamp":"2025-11-21T09:25:02.559Z"}
+{"environment":"development","level":"error","message":"Error: Invalid email or password","stack":"Error: Invalid email or password\n    at loginUserLogic (file:///C:/Users/sumit/OneDrive/Desktop/rosca/rosca-be/dist/src/controllers/userController.js:49:15)","status":401,"timestamp":"2025-11-21T10:08:19.396Z"}
+{"env":"development","level":"info","message":"Starting server...","timestamp":"2025-11-21T11:10:12.548Z"}
+{"appName":"findmyroom","dbConfigured":"Yes","level":"debug","message":"Configuration loaded","port":3000,"timestamp":"2025-11-21T11:10:12.554Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-11-21T11:10:12.555Z"}
+{"level":"info","message":"MongoDB Connected successfully....","timestamp":"2025-11-21T11:10:16.323Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-11-21T11:10:16.324Z"}
+{"env":"development","level":"info","localUrl":"http://localhost:3000","message":"Server is running on port 3000","port":3000,"timestamp":"2025-11-21T11:10:16.339Z"}
+{"level":"info","message":"Local: http://localhost:3000","timestamp":"2025-11-21T11:10:16.341Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/uploads/images-1763665450993-412040133.jpg","timestamp":"2025-11-21T11:10:57.784Z"}
+{"ip":"::1","level":"warn","message":"Route not found","method":"GET","path":"/uploads/images-1763665450993-412040133.jpg","timestamp":"2025-11-21T11:10:57.786Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/uploads/images-1763661629127-551389967.png","timestamp":"2025-11-21T11:10:57.791Z"}
+{"ip":"::1","level":"warn","message":"Route not found","method":"GET","path":"/uploads/images-1763661629127-551389967.png","timestamp":"2025-11-21T11:10:57.792Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/uploads/images-1763662090769-664952972.png","timestamp":"2025-11-21T11:10:57.798Z"}
+{"ip":"::1","level":"warn","message":"Route not found","method":"GET","path":"/uploads/images-1763662090769-664952972.png","timestamp":"2025-11-21T11:10:57.798Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/uploads/images-1763662199327-76231266.png","timestamp":"2025-11-21T11:10:57.804Z"}
+{"ip":"::1","level":"warn","message":"Route not found","method":"GET","path":"/uploads/images-1763662199327-76231266.png","timestamp":"2025-11-21T11:10:57.806Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/uploads/images-1763665588437-264439759.jpg","timestamp":"2025-11-21T11:10:57.809Z"}
+{"ip":"::1","level":"warn","message":"Route not found","method":"GET","path":"/uploads/images-1763665588437-264439759.jpg","timestamp":"2025-11-21T11:10:57.810Z"}
+{"env":"development","level":"info","message":"Starting server...","timestamp":"2025-11-21T11:23:42.840Z"}
+{"appName":"findmyroom","dbConfigured":"Yes","level":"debug","message":"Configuration loaded","port":3000,"timestamp":"2025-11-21T11:23:42.845Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-11-21T11:23:42.847Z"}
+{"level":"info","message":"MongoDB Connected successfully....","timestamp":"2025-11-21T11:23:59.136Z"}
+{"env":"development","level":"info","message":"Starting server...","timestamp":"2025-11-21T11:24:19.757Z"}
+{"appName":"findmyroom","dbConfigured":"Yes","level":"debug","message":"Configuration loaded","port":3000,"timestamp":"2025-11-21T11:24:19.761Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-11-21T11:24:19.762Z"}
+{"level":"info","message":"MongoDB Connected successfully....","timestamp":"2025-11-21T11:24:25.331Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-11-21T11:24:25.332Z"}
+{"env":"development","level":"info","localUrl":"http://localhost:3000","message":"Server is running on port 3000","port":3000,"timestamp":"2025-11-21T11:24:25.339Z"}
+{"level":"info","message":"Local: http://localhost:3000","timestamp":"2025-11-21T11:24:25.341Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/uploads/images-1763662090769-664952972.png","timestamp":"2025-11-21T11:29:40.191Z"}
+{"ip":"::1","level":"warn","message":"Route not found","method":"GET","path":"/uploads/images-1763662090769-664952972.png","timestamp":"2025-11-21T11:29:40.201Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/uploads/images-1763661629127-551389967.png","timestamp":"2025-11-21T11:29:40.215Z"}
+{"ip":"::1","level":"warn","message":"Route not found","method":"GET","path":"/uploads/images-1763661629127-551389967.png","timestamp":"2025-11-21T11:29:40.216Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/uploads/images-1763662199327-76231266.png","timestamp":"2025-11-21T11:29:40.219Z"}
+{"ip":"::1","level":"warn","message":"Route not found","method":"GET","path":"/uploads/images-1763662199327-76231266.png","timestamp":"2025-11-21T11:29:40.221Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/uploads/images-1763665450993-412040133.jpg","timestamp":"2025-11-21T11:29:40.227Z"}
+{"ip":"::1","level":"warn","message":"Route not found","method":"GET","path":"/uploads/images-1763665450993-412040133.jpg","timestamp":"2025-11-21T11:29:40.229Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/uploads/images-1763665588437-264439759.jpg","timestamp":"2025-11-21T11:29:40.233Z"}
+{"ip":"::1","level":"warn","message":"Route not found","method":"GET","path":"/uploads/images-1763665588437-264439759.jpg","timestamp":"2025-11-21T11:29:40.236Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/uploads/images-1763661629127-551389967.png","timestamp":"2025-11-21T11:30:30.825Z"}
+{"ip":"::1","level":"warn","message":"Route not found","method":"GET","path":"/uploads/images-1763661629127-551389967.png","timestamp":"2025-11-21T11:30:30.834Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/uploads/images-1763662090769-664952972.png","timestamp":"2025-11-21T11:30:30.874Z"}
+{"ip":"::1","level":"warn","message":"Route not found","method":"GET","path":"/uploads/images-1763662090769-664952972.png","timestamp":"2025-11-21T11:30:30.907Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/uploads/images-1763662199327-76231266.png","timestamp":"2025-11-21T11:30:30.915Z"}
+{"ip":"::1","level":"warn","message":"Route not found","method":"GET","path":"/uploads/images-1763662199327-76231266.png","timestamp":"2025-11-21T11:30:30.916Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/uploads/images-1763665450993-412040133.jpg","timestamp":"2025-11-21T11:30:30.929Z"}
+{"ip":"::1","level":"warn","message":"Route not found","method":"GET","path":"/uploads/images-1763665450993-412040133.jpg","timestamp":"2025-11-21T11:30:30.930Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/uploads/images-1763665588437-264439759.jpg","timestamp":"2025-11-21T11:30:30.936Z"}
+{"ip":"::1","level":"warn","message":"Route not found","method":"GET","path":"/uploads/images-1763665588437-264439759.jpg","timestamp":"2025-11-21T11:30:30.949Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/uploads/images-1763661629127-551389967.png","timestamp":"2025-11-21T11:31:47.785Z"}
+{"ip":"::1","level":"warn","message":"Route not found","method":"GET","path":"/uploads/images-1763661629127-551389967.png","timestamp":"2025-11-21T11:31:47.786Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/uploads/images-1763662090769-664952972.png","timestamp":"2025-11-21T11:31:47.796Z"}
+{"ip":"::1","level":"warn","message":"Route not found","method":"GET","path":"/uploads/images-1763662090769-664952972.png","timestamp":"2025-11-21T11:31:47.799Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/uploads/images-1763662199327-76231266.png","timestamp":"2025-11-21T11:31:47.810Z"}
+{"ip":"::1","level":"warn","message":"Route not found","method":"GET","path":"/uploads/images-1763662199327-76231266.png","timestamp":"2025-11-21T11:31:47.814Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/uploads/images-1763665450993-412040133.jpg","timestamp":"2025-11-21T11:31:47.820Z"}
+{"ip":"::1","level":"warn","message":"Route not found","method":"GET","path":"/uploads/images-1763665450993-412040133.jpg","timestamp":"2025-11-21T11:31:47.823Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/uploads/images-1763665588437-264439759.jpg","timestamp":"2025-11-21T11:31:47.833Z"}
+{"ip":"::1","level":"warn","message":"Route not found","method":"GET","path":"/uploads/images-1763665588437-264439759.jpg","timestamp":"2025-11-21T11:31:47.834Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/uploads/images-1763661629127-551389967.png","timestamp":"2025-11-21T15:58:50.946Z"}
+{"ip":"::1","level":"warn","message":"Route not found","method":"GET","path":"/uploads/images-1763661629127-551389967.png","timestamp":"2025-11-21T15:58:50.952Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/uploads/images-1763662090769-664952972.png","timestamp":"2025-11-21T15:58:50.956Z"}
+{"ip":"::1","level":"warn","message":"Route not found","method":"GET","path":"/uploads/images-1763662090769-664952972.png","timestamp":"2025-11-21T15:58:50.958Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/uploads/images-1763662199327-76231266.png","timestamp":"2025-11-21T15:58:50.963Z"}
+{"ip":"::1","level":"warn","message":"Route not found","method":"GET","path":"/uploads/images-1763662199327-76231266.png","timestamp":"2025-11-21T15:58:50.964Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/uploads/images-1763665450993-412040133.jpg","timestamp":"2025-11-21T15:58:50.968Z"}
+{"ip":"::1","level":"warn","message":"Route not found","method":"GET","path":"/uploads/images-1763665450993-412040133.jpg","timestamp":"2025-11-21T15:58:50.970Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/uploads/images-1763665588437-264439759.jpg","timestamp":"2025-11-21T15:58:50.996Z"}
+{"ip":"::1","level":"warn","message":"Route not found","method":"GET","path":"/uploads/images-1763665588437-264439759.jpg","timestamp":"2025-11-21T15:58:50.997Z"}
+{"env":"development","level":"info","message":"Starting server...","timestamp":"2025-11-21T17:21:54.043Z"}
+{"appName":"findmyroom","dbConfigured":"Yes","level":"debug","message":"Configuration loaded","port":3000,"timestamp":"2025-11-21T17:21:54.126Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-11-21T17:21:54.129Z"}
+{"level":"info","message":"MongoDB Connected successfully....","timestamp":"2025-11-21T17:21:59.390Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-11-21T17:21:59.391Z"}
+{"env":"development","level":"info","localUrl":"http://localhost:3000","message":"Server is running on port 3000","port":3000,"timestamp":"2025-11-21T17:21:59.441Z"}
+{"level":"info","message":"Local: http://localhost:3000","timestamp":"2025-11-21T17:21:59.449Z"}
+{"env":"development","level":"info","message":"Starting server...","timestamp":"2025-11-21T17:22:11.816Z"}
+{"appName":"findmyroom","dbConfigured":"Yes","level":"debug","message":"Configuration loaded","port":3000,"timestamp":"2025-11-21T17:22:11.826Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-11-21T17:22:11.828Z"}
+{"level":"info","message":"MongoDB Connected successfully....","timestamp":"2025-11-21T17:22:14.279Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-11-21T17:22:14.282Z"}
+{"env":"development","level":"info","localUrl":"http://localhost:3000","message":"Server is running on port 3000","port":3000,"timestamp":"2025-11-21T17:22:14.302Z"}
+{"level":"info","message":"Local: http://localhost:3000","timestamp":"2025-11-21T17:22:14.304Z"}
+{"env":"development","level":"info","message":"Starting server...","timestamp":"2025-11-21T21:12:10.314Z"}
+{"appName":"findmyroom","dbConfigured":"Yes","level":"debug","message":"Configuration loaded","port":3000,"timestamp":"2025-11-21T21:12:10.318Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-11-21T21:12:10.323Z"}
+{"level":"info","message":"MongoDB Connected successfully....","timestamp":"2025-11-21T21:12:11.491Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-11-21T21:12:11.492Z"}
+{"env":"development","level":"info","localUrl":"http://localhost:3000","message":"Server is running on port 3000","port":3000,"timestamp":"2025-11-21T21:12:11.505Z"}
+{"level":"info","message":"Local: http://localhost:3000","timestamp":"2025-11-21T21:12:11.506Z"}
+{"env":"production","level":"info","message":"Starting server...","timestamp":"2025-11-22T19:14:56.718Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-11-22T19:14:56.721Z"}
+{"level":"info","message":"MongoDB Connected successfully....","timestamp":"2025-11-22T19:14:57.879Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-11-22T19:14:57.879Z"}
+{"env":"production","level":"info","localUrl":"http://localhost:3000","message":"Server is running on port 3000","port":3000,"timestamp":"2025-11-22T19:14:57.886Z"}
+{"level":"info","message":"Local: http://localhost:3000","timestamp":"2025-11-22T19:14:57.886Z"}
