@@ -16,7 +16,12 @@ const sendResponse = (res: Response, statusCode: number, responseObj: object) =>
 
 // CORS Middleware - MUST BE FIRST
 app.use(cors({
-  origin: '*', // Allow all origins for now to test
+  origin: [
+    'https://rosca-fe-alpha.vercel.app',
+    'https://rosca-fe.vercel.app',
+    'http://localhost:3000',
+    'http://localhost:3001'
+  ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
