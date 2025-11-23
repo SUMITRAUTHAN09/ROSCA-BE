@@ -1,4 +1,3 @@
-// Import the compiled Express app
-const app = require('../dist/app.js').default;
+import app from "../dist/app.js";
 
-module.exports = app;
+export default app;
