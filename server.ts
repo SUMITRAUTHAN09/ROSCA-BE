@@ -54,7 +54,7 @@ process.on('unhandledRejection', (reason: unknown, promise: Promise<unknown>) =>
 });
 
 // Only start server in development (not on Vercel)
-if (process.env.NODE_ENV !== 'production') {
+if (!process.env.VERCEL) {
   startServer();
 } else {
   // In production (Vercel), connect to DB but don't listen
