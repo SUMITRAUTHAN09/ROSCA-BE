@@ -40,11 +40,18 @@ export const verifyUserOtp = async (
 // Reset user password and clear OTP fields
 export const resetPassword = async (
   email: string,
-  hashedPassword: string
+  newPassword: string
 ): Promise<IUser | null> => {
-  return await User.findOneAndUpdate(
-    { email },
-    { password: hashedPassword, resetOtp: null, resetOtpExpiry: null },
-    { new: true }
-  );
+  const user = await User.findOne({ email });
+  if (!user) return null;
+  
+  // Update password and clear OTP fields
+  user.password = newPassword; // Plain password - will be hashed by pre-save hook
+  user.resetOtp = null;
+  user.resetOtpExpiry = null;
+  
+  // Call save() to trigger pre-save hook
+  await user.save();
+  
+  return user;
 };
