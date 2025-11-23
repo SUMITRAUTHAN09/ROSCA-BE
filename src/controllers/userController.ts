@@ -51,14 +51,27 @@ export const signupUser = asyncWrapper(signupUserLogic);
 const loginUserLogic = async (req: Request, res: Response) => {
   const { email, password } = req.body;
   const sanitizedEmail = sanitizeEmail(email);
+  
+  console.log('🔐 Login attempt:', { email: sanitizedEmail });
+  
   const user = await userService.findUserByEmail(sanitizedEmail);
+  
   if (!user) {
+    console.log('❌ User not found');
     throw new ApiError(HTTP_STATUS_CODE.NOT_FOUND, 'Invalid email or password');
   }
+  
+  console.log('✅ User found:', { email: user.email, hasPassword: !!user.password });
+  console.log('🔍 Comparing passwords...');
+  
   const isPasswordCorrect = await bcryptjs.compare(password, user.password);
+  
+  console.log('🔐 Password match result:', isPasswordCorrect);
+  
   if (!isPasswordCorrect) {
     throw new ApiError(HTTP_STATUS_CODE.UNAUTHORIZED, 'Invalid email or password');
   }
+  
   sendResponse(res, HTTP_STATUS_CODE.OK, {
     success: true,
     user: {
