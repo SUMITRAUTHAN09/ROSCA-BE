@@ -29,8 +29,10 @@ app.use(cors({
   optionsSuccessStatus: 204
 }));
 
-// Handle preflight requests explicitly
-app.options('*', cors());
+// Handle ALL OPTIONS requests explicitly BEFORE other middleware
+app.options('*', (req, res) => {
+  res.status(204).end();
+});
 
 // Request logging middleware
 app.use((req: Request, res: Response, next: NextFunction) => {
