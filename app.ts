@@ -5,8 +5,6 @@ import userRoutes from './src/routes/userRoutes.js';
 import HTTP_STATUS_CODE from './src/utils/httpStatusCode.js';
 import logger from './src/utils/logger.js';
 
-
-
 const app = express();
 
 const sendResponse = (res: Response, statusCode: number, responseObj: object) => {
@@ -26,7 +24,11 @@ app.use((req: Request, res: Response, next: NextFunction) => {
   next();
 });
 
-// Rest of your middleware...
+// Body parsing middleware - BEFORE routes
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+// Logging middleware
 app.use((req: Request, res: Response, next: NextFunction) => {
   logger.info('Incoming request', {
     method: req.method,
@@ -36,7 +38,8 @@ app.use((req: Request, res: Response, next: NextFunction) => {
   next();
 });
 
-app.use('/api/users', express.json(), express.urlencoded({ extended: true }), userRoutes);
+// Routes (remove duplicate middleware here)
+app.use('/api/users', userRoutes);
 app.use('/api/rooms', roomRoutes);
 app.use('/uploads', express.static('uploads'));
 
