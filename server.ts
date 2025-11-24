@@ -12,10 +12,10 @@ const startServer = async (): Promise<void> => {
     logger.info('Database connected successfully');
     
     app.listen(config.app.port, () => {
-      logger.info(Server is running on port ${config.app.port}, {
+      logger.info(`Server is running on port ${config.app.port}`, {
         port: config.app.port,
         env: config.app.env,
-        localUrl: http://localhost:${config.app.port}
+        localUrl: `http://localhost:${config.app.port}`
       });
     });
   } catch (err: any) {
