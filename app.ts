@@ -1,7 +1,4 @@
-import cors from 'cors';
 import express, { NextFunction, Request, Response } from 'express';
-import connectDB from './src/utils/db.js';
-import config from './src/config/config.js';
 import errorHandler from './src/middleware/errorHandler.js';
 import roomRoutes from './src/routes/roomRoutes.js';
 import userRoutes from './src/routes/userRoutes.js';
