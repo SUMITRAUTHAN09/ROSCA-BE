@@ -6,6 +6,21 @@ let dbConnected = false;
 let dbPromise = null;
 
 export default async function handler(req, res) {
+  // Handle CORS preflight
+  if (req.method === "OPTIONS") {
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    res.setHeader(
+      "Access-Control-Allow-Methods",
+      "GET, POST, PUT, DELETE, OPTIONS"
+    );
+    res.setHeader(
+      "Access-Control-Allow-Headers",
+      "Content-Type, Authorization"
+    );
+    res.setHeader("Access-Control-Allow-Credentials", "true");
+    return res.status(200).end();
+  }
+
   // Ensure database is connected before handling request
   if (!dbConnected && !dbPromise) {
     dbPromise = connectDB(config.db.uri)
@@ -15,7 +30,7 @@ export default async function handler(req, res) {
       })
       .catch((err) => {
         console.error("Database connection failed:", err);
-        dbPromise = null; // Reset to retry on next request
+        dbPromise = null;
         throw err;
       });
   }
@@ -32,5 +47,6 @@ export default async function handler(req, res) {
     }
   }
 
+  // Pass request to Express app
   return app(req, res);
 }
