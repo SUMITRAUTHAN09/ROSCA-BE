@@ -386,3 +386,11 @@
 {"level":"info","message":"Database connected successfully","timestamp":"2025-11-22T19:14:57.879Z"}
 {"env":"production","level":"info","localUrl":"http://localhost:3000","message":"Server is running on port 3000","port":3000,"timestamp":"2025-11-22T19:14:57.886Z"}
 {"level":"info","message":"Local: http://localhost:3000","timestamp":"2025-11-22T19:14:57.886Z"}
+{"env":"production","level":"info","message":"Starting server...","timestamp":"2025-11-27T20:19:34.693Z"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-11-27T20:19:34.696Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-11-27T20:19:36.405Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-11-27T20:19:36.406Z"}
+{"env":"production","level":"info","localUrl":"http://localhost:3000","message":"Server is running on port 3000","port":3000,"timestamp":"2025-11-27T20:19:36.421Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/","timestamp":"2025-11-27T20:19:45.942Z"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","path":"/favicon.ico","timestamp":"2025-11-27T20:19:46.506Z"}
+{"ip":"::1","level":"warn","message":"Route not found","method":"GET","path":"/favicon.ico","timestamp":"2025-11-27T20:19:46.514Z"}

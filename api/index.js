@@ -15,7 +15,7 @@ export default async function handler(req, res) {
       })
       .catch(err => {
         console.error('Database connection failed:', err);
-        dbPromise = null; // Reset to retry on next request
+        dbPromise = null;
         throw err;
       });
   }

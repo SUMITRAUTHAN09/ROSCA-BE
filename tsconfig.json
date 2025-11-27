@@ -12,7 +12,13 @@
     "skipLibCheck": true
   },
   "include": [
+<<<<<<< HEAD
     "**/*.ts"
+=======
+    "src/**/*.ts",
+    "app.ts",
+    "server.ts"
+>>>>>>> 1691a591d059b01227f01f06a5d494beb781387c
   ],
   "exclude": [
     "node_modules",
