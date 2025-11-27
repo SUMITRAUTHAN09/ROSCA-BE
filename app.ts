@@ -39,13 +39,8 @@ app.use((req: Request, res: Response, next: NextFunction) => {
   next();
 });
 
-<<<<<<< HEAD
 // Route mounting
 app.use('/api/users', userRoutes);         // user routes mounted at /api/users
-=======
-// Routes (remove duplicate middleware here)
-app.use('/api/users', userRoutes);
->>>>>>> 1691a591d059b01227f01f06a5d494beb781387c
 app.use('/api/rooms', roomRoutes);
 app.use('/api', googleAuthRoutes);
 app.use('/uploads', express.static('uploads'));
