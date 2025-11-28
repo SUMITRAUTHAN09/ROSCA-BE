@@ -1,5 +1,5 @@
 import bcryptjs from 'bcryptjs';
-import mongoose, { Document, Model, Schema } from 'mongoose';
+import mongoose, { Document, Schema } from 'mongoose';
 
 // Interface for User document
 export interface IUser extends Document {
@@ -18,7 +18,7 @@ export interface IUser extends Document {
 }
 
 // Schema definition with timestamps enabled
-const userSchema: Schema<IUser> = new Schema(
+const userSchema = new Schema<IUser>(
   {
     firstName: {
       type: String,
@@ -40,7 +40,7 @@ const userSchema: Schema<IUser> = new Schema(
     },
     password: {
       type: String,
-      required: function (this: IUser): boolean {
+      required: function (this: any): boolean {
         return !this.googleId;
       },
       minlength: [6, 'Password must be at least 6 characters'],
@@ -74,7 +74,7 @@ const userSchema: Schema<IUser> = new Schema(
 );
 
 // Hash password before saving
-userSchema.pre<IUser>('save', async function (next) {
+userSchema.pre('save', async function (next) {
   if (!this.isModified('password') || !this.password) {
     return next();
   }
@@ -99,7 +99,6 @@ userSchema.methods.comparePassword = async function (
 };
 
 // Create and export the model
-const User: Model<IUser> = mongoose.model<IUser>('User', userSchema);
+const User = mongoose.model<IUser>('User', userSchema);
 
-// Default export
 export default User;
