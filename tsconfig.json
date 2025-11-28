@@ -11,19 +11,8 @@
     "strict": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    "forceConsistentCasingInFileNames": true,
-    "declaration": true,
-    "declarationMap": true,
-    "sourceMap": true
+    "forceConsistentCasingInFileNames": true
   },
-  "include": [
-    "server.ts",
-    "app.ts",
-    "src/**/*"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist",
-    "api"
-  ]
+  "include": ["server.ts", "app.ts", "src/**/*"],
+  "exclude": ["node_modules", "dist", "api"]
 }

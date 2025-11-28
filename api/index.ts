@@ -1,8 +1,8 @@
 // api/index.ts
-import app from "../dist/app.js";
-import connectDB from "../dist/src/utils/db.js";
-import config from "../dist/src/config/config.js";
-import logger from "../dist/src/utils/logger.js";
+import app from "../app.js";
+import connectDB from "../src/utils/db.js";
+import config from "../src/config/config.js";
+import logger from "../src/utils/logger.js";
 
 // Initialize database connection for serverless environment
 let isConnected = false;
