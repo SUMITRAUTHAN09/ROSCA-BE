@@ -1,28 +1,16 @@
 {
   "compilerOptions": {
-    "target": "ES2022",
-    "module": "ES2022",
+    "target": "ES2020",
+    "module": "ES2020",
     "moduleResolution": "node",
-    "lib": ["ES2022"],
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": false,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true,
     "outDir": "./dist",
     "rootDir": "./",
-    "declaration": true,
-    "sourceMap": false,
-    "typeRoots": ["./node_modules/@types", "./src/types"]
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true
   },
-  "include": [
-    ".//*.ts",
-    "./src/types//*.d.ts"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist",
-    ".dist"
-  ]
+  "include": ["server.ts", "api/**/*", "src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }
