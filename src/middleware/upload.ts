@@ -1,4 +1,5 @@
 import { v2 as cloudinary } from 'cloudinary';
+import { Request } from 'express';
 import multer from 'multer';
 import { CloudinaryStorage } from 'multer-storage-cloudinary';
 import config from '../config/config.js';
@@ -10,23 +11,38 @@ cloudinary.config({
   api_secret: config.cloudinary.apiSecret,
 });
 
+// Define params type for CloudinaryStorage
+interface CloudinaryParams {
+  folder: string;
+  allowed_formats: string[];
+  transformation: Array<{ width: number; height: number; crop: string }>;
+  public_id: string;
+}
+
 // Configure Cloudinary storage
 const storage = new CloudinaryStorage({
   cloudinary: cloudinary,
-  params: async (req, file) => {
+  params: async (
+    req: Request,
+    file: Express.Multer.File
+  ): Promise<CloudinaryParams> => {
     return {
-      folder: 'rosca-room-images', // Folder name in Cloudinary
+      folder: 'rosca-room-images',
       allowed_formats: ['jpg', 'jpeg', 'png', 'webp'],
-      transformation: [{ width: 1500, height: 1500, crop: 'limit' }], // Optional: resize large images
-      public_id: `room-${Date.now()}-${Math.round(Math.random() * 1e9)}`, // Unique filename
+      transformation: [{ width: 1500, height: 1500, crop: 'limit' }],
+      public_id: `room-${Date.now()}-${Math.round(Math.random() * 1e9)}`,
     };
   },
-});
+} as any); // Type assertion to bypass type issues with the library
 
 // File filter for validation
-const imageFileFilter = (req: any, file: Express.Multer.File, cb: any) => {
+const imageFileFilter = (
+  req: Request,
+  file: Express.Multer.File,
+  cb: multer.FileFilterCallback
+): void => {
   if (!file.originalname.match(/\.(jpg|jpeg|png|webp)$/i)) {
-    return cb(new Error('Only image files are allowed!'), false);
+    return cb(new Error('Only image files are allowed!'));
   }
   cb(null, true);
 };

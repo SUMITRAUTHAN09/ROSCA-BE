@@ -13,6 +13,8 @@ export interface IUser extends Document {
   googleId?: string;
   profilePicture?: string;
   isVerified: boolean;
+  createdAt: Date;
+  updatedAt: Date;
 }
 
 // Schema definition with timestamps enabled
@@ -38,7 +40,7 @@ const userSchema: Schema<IUser> = new Schema(
     },
     password: {
       type: String,
-      required: function () {
+      required: function (this: IUser): boolean {
         return !this.googleId;
       },
       minlength: [6, 'Password must be at least 6 characters'],
@@ -55,7 +57,7 @@ const userSchema: Schema<IUser> = new Schema(
       type: String,
       required: false,
       unique: true,
-      sparse: true, // Allows multiple null values
+      sparse: true,
     },
     profilePicture: {
       type: String,
@@ -67,13 +69,15 @@ const userSchema: Schema<IUser> = new Schema(
     },
   },
   {
-    timestamps: true, // <-- enables createdAt and updatedAt automatically
+    timestamps: true,
   }
 );
 
 // Hash password before saving
 userSchema.pre<IUser>('save', async function (next) {
-  if (!this.isModified('password')) return next();
+  if (!this.isModified('password') || !this.password) {
+    return next();
+  }
 
   try {
     const salt = await bcryptjs.genSalt(10);
@@ -88,10 +92,14 @@ userSchema.pre<IUser>('save', async function (next) {
 userSchema.methods.comparePassword = async function (
   candidatePassword: string
 ): Promise<boolean> {
+  if (!this.password) {
+    return false;
+  }
   return bcryptjs.compare(candidatePassword, this.password);
 };
 
-// Model
+// Create and export the model
 const User: Model<IUser> = mongoose.model<IUser>('User', userSchema);
 
+// Default export
 export default User;
