@@ -5,7 +5,7 @@
     "lib": ["ES2020"],
     "moduleResolution": "node",
     "outDir": "./dist",
-    "rootDir": "./src",  // Changed from "./"
+    "rootDir": "./",  // Back to root since files are at multiple levels
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
@@ -13,6 +13,6 @@
     "resolveJsonModule": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src/**/*", "api/**/*", "app.ts", "server.ts"],  // More explicit
+  "include": ["src/**/*", "api/**/*", "app.ts", "server.ts"],
   "exclude": ["node_modules", "dist"]
 }
